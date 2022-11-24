@@ -1,0 +1,4 @@
+resource "aws_key_pair" "citadel-key" {
+  key_name   = "citadel"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkhU9+SGKg916yEXkc3XSgGL0hnM6pFK4ulgbVd2NgjXWZb94gs54IBJ47B55ZhV0JcO+wsiBXsageLSKatqgmIgSxHt0K3pSfKtbW5XmylWSMMFyScavrT0iurCTdEX93EKVr38VsZn0j3nDK7cEE4BroNCevinysss4YDesNGqoKIAkfBc1kHdsL9fIIMb7AvchqKny24iFQx/lE/8t24OoQUKTTNhaUVIImq89/ArFMd0+5TxLWfr6Coyqret/H8sQHnmYOVRJOdXa3EmDB7LylSW3/qo4Pm2W3zAv4ZFLfdC+jqHsJhfZWlVAYoWRm7CsYeuzQWnCew926iP+L root@iac-server"
+}
